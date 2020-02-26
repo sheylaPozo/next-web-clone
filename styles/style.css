@@ -158,9 +158,24 @@ body {
 
 /**** footers ****/
 .footer-2 {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #111;
   color: #fff;
   font-size: 0.8rem;
   height: 50px;
+}
+
+.footer-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #666;
+  color: #fff;
+  height: 50px;
+}
+
+.footer-1 > * {
+  margin: 20px;
 }
