@@ -176,6 +176,7 @@ img {
   width: 100%;
   z-index: 2;
   position: absolute;
+  top: 0;
 }
 
 
@@ -194,6 +195,7 @@ img {
   box-sizing: border-box;
   z-index: 3;
   position: absolute;
+  top:0;
 }
 
 .story-summary .story-description {
@@ -332,16 +334,76 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 30px;
-  gap: 20px;
+  gap: 30px;
 }
 
 .categories-itme {
   width: 100%;
-  height: 500px;
-  border: 1px #111 solid;
+  height: fit-content;
 }
 
-/**** latest news ****/
+.category-front {
+  position: relative;
+}
+
+.category-front a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.category-front a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.articles-in-category ul {
+  padding: 10px;
+  font-size: 0.9rem;
+}
+
+.articles-in-category a {
+  text-decoration: none;
+  color: #888;
+}
+
+.articles-in-category a:hover {
+  text-decoration: none;
+  color: #333;
+}
+
+.latest-in-category img{
+  width: 25%;
+}
+
+.latest-in-category a {
+  text-decoration: none;
+  color: red;
+}
+
+.latest-in-category a {
+  color: red;
+}
+
+.latest-in-category h4 {
+  margin: 0;
+}
+
+.latest-in-category{
+  display: flex;
+  justify-content: space-between;
+  background: rgb(248, 205, 245);
+  color: red;
+}
+
+.latest-article {
+  padding: 10px;
+}
+
+.latest-article span {
+  font-size: 0.8rem;
+}
+
+/**** latest deals ****/
 .latest-deals-container {
   display: flex;
   flex-wrap: wrap;
@@ -349,9 +411,8 @@ img {
 }
 
 .latest-deals-item {
-  width: 180px;
-  height: 100px;
-  border: 1px #111 solid;
+  width: 20%;
+  height: fit-content;
   margin: 20px;
 }
 
