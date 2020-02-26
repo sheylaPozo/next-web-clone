@@ -82,16 +82,19 @@ body {
 
 .top-stories-itme-1 {
   grid-area: article-1;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/4-1-796x417.jpg");
   background-color: #111;
 }
 
 .top-stories-itme-2 {
   grid-area: article-2;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/apple-movies-villains-iphone-796x415.jpg");
   background-color: aqua;
 }
 
 .top-stories-itme-3 {
   grid-area: article-3;
+  background:url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2014/07/Wifi-730x279.jpg");
   background-color: chocolate;
 }
 
