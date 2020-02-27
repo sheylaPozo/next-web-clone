@@ -11,6 +11,31 @@ section {
   display: none;
 }
 
+.annoncement a {
+  text-decoration: none;
+  color: #111;
+}
+
+.annoncement a:hover {
+  text-decoration: none;
+  color: #111;
+}
+
+.nav-1-item a {
+  text-decoration: none;
+  color: #999;
+}
+
+.nav-2-item a {
+  text-decoration: none;
+  color: #999;
+}
+
+.nav-2-item a:hover {
+  text-decoration: none;
+  color: #111;
+}
+
 .section-header a {
   text-decoration: none;
   color: rgb(231, 47, 47);
@@ -42,11 +67,6 @@ img {
   background: #111;
 }
 
-.nav-1-item a {
-  text-decoration: none;
-  color: #999;
-}
-
 .nav-1-item a:hover {
   text-decoration: none;
   color: #fff;
@@ -66,16 +86,6 @@ img {
 
 .navbar-2-group {
   padding: 8px;
-}
-
-.nav-2-item a {
-  text-decoration: none;
-  color: #999;
-}
-
-.nav-2-item a:hover {
-  text-decoration: none;
-  color: #111;
 }
 
 .nav-2-item {
@@ -105,16 +115,6 @@ img {
   padding: 5px;
   font-size: 0.8rem;
   background: rgb(247, 230, 5);
-}
-
-.annoncement a {
-  text-decoration: none;
-  color: #111;
-}
-
-.annoncement a:hover {
-  text-decoration: none;
-  color: #111;
 }
 
 /**** top stories ****/
@@ -186,7 +186,7 @@ img {
 .logo {
   font-size: 6rem;
 }
- 
+
 .top-story-summary {
   height: 100%;
   display: flex;
@@ -206,7 +206,6 @@ img {
   position: absolute;
   top: 0;
 }
-
 
 .story-summary h2,
 .story-summary h5,
@@ -231,6 +230,15 @@ img {
 }
 
 /**** latest news ****/
+.writer, .writer a {
+  color: #999;
+}
+
+.writer a:hover {
+  color: #555;
+  text-decoration: none;
+}
+
 .latest-news-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -249,15 +257,6 @@ img {
 .latest-news-item a:hover {
   text-decoration: underline;
   color: rgb(231, 47, 47);
-}
-
-.writer, .writer a {
-  color: #999;
-}
-
-.writer a:hover {
-  color: #555;
-  text-decoration: none;
 }
 
 /*** latest round of funding ***/
@@ -284,7 +283,6 @@ img {
   color: #111;
 }
 
-
 .fund-item a:hover {
   text-decoration: none;
   color: #111;
@@ -299,13 +297,13 @@ img {
 
 .fund-title {
   color: #fff;
-  margin: 0px;
+  margin: 0;
   background-color: red;
   padding: 10px;
 }
 
 .fund-info {
-  background: rgba(255, 68, 34, .08);
+  background: rgba(255, 68, 34, 0.08);
 }
 
 .fund-info h4 {
@@ -323,7 +321,7 @@ img {
   font-size: 0.8rem;
 }
 
-.fund-type  * {
+.fund-type > * {
   margin-top: 10px;
 }
 
@@ -492,7 +490,6 @@ img {
   color: #fff;
 }
 
-
 /*** break point 1100px ***/
 @media only screen and (max-width: 1100px) {
   .disappear-nav {
@@ -566,7 +563,6 @@ img {
   }
 }
 
-
 /*** break point 770px ***/
 @media only screen and (max-width: 700px) {
   .disappear {
@@ -577,7 +573,7 @@ img {
     display: none;
   }
 
-/**** announcement ****/
+  /**** announcement ****/
   .annoncement {
     text-align: center;
     padding: 20px;
@@ -627,7 +623,7 @@ img {
     display: flex;
     flex-direction: column;
   }
-  
+
   .fund-item {
     width: 100%;
     height: fit-content;
@@ -646,13 +642,11 @@ img {
     grid-template-columns: 1fr;
   }
 
-
   /**** latest deals ****/
   .latest-deals-container {
     display: flex;
     flex-direction: column;
   }
-
 
   .latest-deals-item {
     margin: 10px;
