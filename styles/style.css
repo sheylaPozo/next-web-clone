@@ -11,6 +11,15 @@ section {
   display: none;
 }
 
+.writer, .writer a {
+  color: #999;
+}
+
+.writer a:hover {
+  color: #555;
+  text-decoration: none;
+}
+
 .annoncement a {
   text-decoration: none;
   color: #111;
@@ -230,15 +239,6 @@ img {
 }
 
 /**** latest news ****/
-.writer, .writer a {
-  color: #999;
-}
-
-.writer a:hover {
-  color: #555;
-  text-decoration: none;
-}
-
 .latest-news-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
