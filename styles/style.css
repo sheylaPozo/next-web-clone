@@ -11,6 +11,57 @@ section {
   display: none;
 }
 
+.fund-description a {
+  text-decoration: none;
+  color: #888;
+}
+
+.category-front a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.latest-deals-item a {
+  text-decoration: none;
+  color: #111;
+}
+
+.articles-in-category a {
+  text-decoration: none;
+  color: #888;
+}
+
+.latest-in-category a {
+  text-decoration: none;
+  color: red;
+}
+
+.footer-1 a {
+  text-decoration: none;
+  color: #999;
+}
+
+.top-stories-grid a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.fund-type a {
+  text-decoration: none;
+  color: #999;
+  font-size: 0.8;
+}
+
+.fund-item a {
+  text-decoration: none;
+  color: #111;
+}
+
+.latest-news-item a {
+  text-decoration: none;
+  color: #111;
+}
+
 .writer, .writer a {
   color: #999;
 }
@@ -18,16 +69,6 @@ section {
 .writer a:hover {
   color: #555;
   text-decoration: none;
-}
-
-.annoncement a {
-  text-decoration: none;
-  color: #111;
-}
-
-.annoncement a:hover {
-  text-decoration: none;
-  color: #111;
 }
 
 .nav-1-item a {
@@ -40,11 +81,6 @@ section {
   color: #999;
 }
 
-.nav-2-item a:hover {
-  text-decoration: none;
-  color: #111;
-}
-
 .section-header a {
   text-decoration: none;
   color: rgb(231, 47, 47);
@@ -54,6 +90,22 @@ section {
   text-decoration: none;
   color: #111;
 }
+
+.annoncement a {
+  text-decoration: none;
+  color: #111;
+}
+
+.annoncement a:hover {
+  text-decoration: none;
+  color: #111;
+}
+
+.nav-2-item a:hover {
+  text-decoration: none;
+  color: #111;
+}
+
 
 img {
   width: 100%;
@@ -156,11 +208,6 @@ img {
   background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2014/07/Wifi-730x279.jpg");
 }
 
-.top-stories-grid a {
-  text-decoration: none;
-  color: #fff;
-}
-
 .top-stories-grid a:hover {
   text-decoration: none;
   color: #fff;
@@ -249,11 +296,6 @@ img {
   margin: 0;
 }
 
-.latest-news-item a {
-  text-decoration: none;
-  color: #111;
-}
-
 .latest-news-item a:hover {
   text-decoration: underline;
   color: rgb(231, 47, 47);
@@ -276,11 +318,6 @@ img {
   height: fit-content;
   margin: 20px;
   box-sizing: border-box;
-}
-
-.fund-item a {
-  text-decoration: none;
-  color: #111;
 }
 
 .fund-item a:hover {
@@ -325,12 +362,6 @@ img {
   margin-top: 10px;
 }
 
-.fund-type a {
-  text-decoration: none;
-  color: #999;
-  font-size: 0.8;
-}
-
 .fund-type a:hover {
   text-decoration: none;
   color: #222;
@@ -339,11 +370,6 @@ img {
 .fund-description {
   font-size: 0.8rem;
   padding: 5px;
-}
-
-.fund-description a {
-  text-decoration: none;
-  color: #888;
 }
 
 .fund-description a:hover {
@@ -368,11 +394,6 @@ img {
   position: relative;
 }
 
-.category-front a {
-  text-decoration: none;
-  color: #fff;
-}
-
 .category-front a:hover {
   text-decoration: underline;
   color: #fff;
@@ -388,11 +409,6 @@ img {
   padding: 10px;
 }
 
-.articles-in-category a {
-  text-decoration: none;
-  color: #888;
-}
-
 .articles-in-category a:hover {
   text-decoration: none;
   color: #333;
@@ -400,15 +416,6 @@ img {
 
 .latest-in-category img {
   width: 25%;
-}
-
-.latest-in-category a {
-  text-decoration: none;
-  color: red;
-}
-
-.latest-in-category a {
-  color: red;
 }
 
 .latest-in-category h4 {
@@ -439,11 +446,6 @@ img {
 
 .latest-deals-item h4 {
   margin: 0;
-}
-
-.latest-deals-item a {
-  text-decoration: none;
-  color: #111;
 }
 
 .latest-deals-item a:hover {
@@ -478,11 +480,6 @@ img {
 
 .footer-1 > * {
   margin: 20px;
-}
-
-.footer-1 a {
-  text-decoration: none;
-  color: #999;
 }
 
 .footer-1 a:hover {
