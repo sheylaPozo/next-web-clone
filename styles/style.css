@@ -25,6 +25,15 @@ img {
   width: 100%;
 }
 
+/**** navbar ****/
+.appear {
+  display: none;
+}
+
+.logo-nav {
+  width: 15%;
+}
+
 /**** navbar 1 ****/
 .navbar-1 {
   display: flex;
@@ -52,10 +61,12 @@ img {
 .navbar-2 {
   display: flex;
   justify-content: space-between;
-  padding: 12px;
   background: #fff;
 }
 
+.navbar-2-group{
+  padding: 8px;
+}
 
 .nav-2-item a {
   text-decoration: none;
@@ -70,6 +81,23 @@ img {
 .nav-2-item {
   margin-left: 10px;
   font-size: 1rem;
+}
+
+.join-us {
+  padding: 5px;
+  color: #fff;
+  background: #0cc;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.join-us:hover {
+  background: #90c;
+}
+
+.options {
+  border-left: 1px #999 solid;
 }
 
 /*** annoncement ***/
@@ -357,6 +385,11 @@ img {
   font-size: 0.9rem;
 }
 
+.articles-in-category li {
+  border-bottom:1px #999 solid;
+  padding: 10px;
+}
+
 .articles-in-category a {
   text-decoration: none;
   color: #888;
@@ -459,12 +492,34 @@ img {
   color: #fff;
 }
 
+
+/*** break point 1100px ***/
+@media only screen and (max-width: 1100px) {
+  .disappear-nav {
+    display: none;
+  }
+}
+
 /*** break point 1020px ***/
 @media only screen and (max-width: 1020px) {
   .disappear {
     display: none;
   }
 
+  /**** navbar ****/
+  .appear {
+    display: block;
+  }
+
+  .nav-and-logo {
+    display: flex;
+  }
+
+  .navbars{
+    width: 100%;
+  }
+
+  /**** top stories ****/
   .top-story-summary {
     height: 100%;
     display: flex;
@@ -516,6 +571,23 @@ img {
 @media only screen and (max-width: 700px) {
   .disappear {
     display: none;
+  }
+
+  .disappear-small {
+    display: none;
+  }
+
+/**** announcement ****/
+  .annoncement {
+    text-align: center;
+    padding: 20px;
+  }
+
+  /**** navbar 2 ****/
+  .navbar-2 {
+    display: flex;
+    justify-content: flex-end;
+    background: #fff;
   }
 
   /**** top stories ****/
