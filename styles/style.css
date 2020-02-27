@@ -580,7 +580,7 @@ img {
 /*** break point 770px ***/
 @media only screen and (max-width: 700px) {
   body {
-    overflow: hidden;
+    overflow-x: hidden;
   }
 
   .disappear {
