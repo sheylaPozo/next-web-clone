@@ -2,7 +2,6 @@
 
 This project is part of the Microverse curriculum, it is a clone of the next web website.
 
-
 ## Built With
 
 - HTML,
