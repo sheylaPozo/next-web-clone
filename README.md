@@ -10,7 +10,7 @@ This project is part of the Microverse curriculum, it is a clone of the next web
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/HADDADSOHAIB/next-web-clone/311025a6667d494363d3a65555869a1ffdef30a6/index.html)
+[Live Demo Link](https://rawcdn.githack.com/HADDADSOHAIB/next-web-clone/2b539af2630d8af86081364d108f0790ef975ce1/index.html)
 
 ## Authors
 
