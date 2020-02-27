@@ -62,13 +62,9 @@ section {
   color: #111;
 }
 
-.writer, .writer a {
+.writer,
+.writer a {
   color: #999;
-}
-
-.writer a:hover {
-  color: #555;
-  text-decoration: none;
 }
 
 .nav-1-item a {
@@ -106,9 +102,13 @@ section {
   color: #111;
 }
 
-
 img {
   width: 100%;
+}
+
+.writer a:hover {
+  color: #555;
+  text-decoration: none;
 }
 
 /**** navbar ****/
