@@ -82,11 +82,6 @@ section {
   color: rgb(231, 47, 47);
 }
 
-.section-header a:hover {
-  text-decoration: none;
-  color: #111;
-}
-
 .annoncement a {
   text-decoration: none;
   color: #111;
@@ -98,6 +93,11 @@ section {
 }
 
 .nav-2-item a:hover {
+  text-decoration: none;
+  color: #111;
+}
+
+.section-header a:hover {
   text-decoration: none;
   color: #111;
 }
