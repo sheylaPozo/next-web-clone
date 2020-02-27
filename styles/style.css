@@ -64,7 +64,7 @@ img {
   background: #fff;
 }
 
-.navbar-2-group{
+.navbar-2-group {
   padding: 8px;
 }
 
@@ -120,8 +120,8 @@ img {
 /**** top stories ****/
 .top-stories-grid {
   display: grid;
-  grid-template-areas: 
-    'article-1 article-1 article-2' 
+  grid-template-areas:
+    'article-1 article-1 article-2'
     'article-1 article-1 article-3';
   grid-template-columns: 1fr 1fr 1fr;
   height: 450px;
@@ -144,7 +144,7 @@ img {
 .top-stories-itme-3 {
   position: relative;
   grid-area: article-3;
-  background:url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2014/07/Wifi-730x279.jpg");
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2014/07/Wifi-730x279.jpg");
 }
 
 .top-stories-grid a {
@@ -223,7 +223,7 @@ img {
   box-sizing: border-box;
   z-index: 3;
   position: absolute;
-  top:0;
+  top: 0;
 }
 
 .story-summary .story-description {
@@ -302,18 +302,18 @@ img {
   margin: 0px;
   background-color: red;
   padding: 10px;
-} 
-
-.fund-info {
-  background: rgba(255,68,34,.08);
 }
 
-.fund-info h4{
+.fund-info {
+  background: rgba(255, 68, 34, .08);
+}
+
+.fund-info h4 {
   margin: 0;
   padding: 5px;
 }
 
-.fund-info span{
+.fund-info span {
   color: #999;
   font-size: 0.8rem;
 }
@@ -386,7 +386,7 @@ img {
 }
 
 .articles-in-category li {
-  border-bottom:1px #999 solid;
+  border-bottom: 1px #999 solid;
   padding: 10px;
 }
 
@@ -400,7 +400,7 @@ img {
   color: #333;
 }
 
-.latest-in-category img{
+.latest-in-category img {
   width: 25%;
 }
 
@@ -417,7 +417,7 @@ img {
   margin: 0;
 }
 
-.latest-in-category{
+.latest-in-category {
   display: flex;
   justify-content: space-between;
   background: rgb(248, 205, 245);
@@ -515,7 +515,7 @@ img {
     display: flex;
   }
 
-  .navbars{
+  .navbars {
     width: 100%;
   }
 
@@ -529,7 +529,7 @@ img {
     box-sizing: border-box;
     z-index: 3;
     position: absolute;
-    top:0;
+    top: 0;
   }
 
   .story-description {
@@ -593,8 +593,8 @@ img {
   /**** top stories ****/
   .top-stories-grid {
     display: grid;
-    grid-template-areas: 
-      'article-1 article-1 article-1' 
+    grid-template-areas:
+      'article-1 article-1 article-1'
       'article-2 article-2 article-2'
       'article-3 article-3 article-3';
     grid-template-columns: 1fr 1fr 1fr;
