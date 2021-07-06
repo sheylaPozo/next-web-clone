@@ -9,7 +9,7 @@ This project is part of the Microverse curriculum, it is a clone of the next web
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://sheylapozo.github.io/next-web-clone/)
 
 ## Authors
 
